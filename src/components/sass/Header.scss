@@ -1,0 +1,18 @@
+.bg-dark {
+  background-color: #000 !important;
+  .Logo {
+    width: 250px;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  transition: .4s;
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #EFD81D;
+  font-weight: bold;
+  font-size: 16.5px;
+}

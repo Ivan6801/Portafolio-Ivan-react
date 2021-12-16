@@ -1,0 +1,56 @@
+::selection {
+  color: white;
+  background: #601f24;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+	background: #ececec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: normal;
+  // font-style: italic; 
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  margin: 0;
+  color: white;
+}
+
+h1 strong {
+  color: #601F24;
+}
+h2 {
+  color: #601F24;
+  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+small {
+  color: #601f24;
+}
