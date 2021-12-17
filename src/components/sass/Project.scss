@@ -1,23 +1,7 @@
 .project {
-    /* border-top: 10px solid red;
-    border-right: 10px solid green;
-    border-left: 10px solid orange;
-    border-bottom: 10px solid pink; */
-    /* color: blue; */
-    /* border-top-color: red;
-    border-top-width: 15px;
-    border-top-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
-    /* border-top-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px; */
-    /* margin: 10px; */
     margin-bottom: 15px;
-    /* margin-right
-    margin-left 
-    margin-top */
     padding: 20px;
     background: white;
     display: flex;
@@ -36,9 +20,6 @@
   .project strong {
     font-family: 'Fjalla One', sans-serif;
   }
-  /* .project-date {
-    margin: 10px 0;
-  } */
   
   .project-title {
     font-size: 30px;
@@ -51,13 +32,21 @@
     width: 50%;
   }
   
-  .project-imageContainer {
-    width: 50%;
-  }
+  // .project-imageContainer {
+  //   width: 50%;
+  // }
   
   .project-imageContainer img {
     max-width: 100%;
   }
 
+  .project-image {
+    width: 280px;
+    background-position:right;
+  }
+
+  #count {
+    color: #000;
+  }
 
   

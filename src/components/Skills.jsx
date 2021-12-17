@@ -76,7 +76,7 @@ const Skills = () => {
                 <ProgressBar variant="danger" now={`${figma}`} label={`${figma}%`} />
               </Col>
               <Col>
-                <h5><SiStyledcomponents size={40} /> styled-components</h5>
+                <h5><SiStyledcomponents size={30} /> styled-components</h5>
                 <ProgressBar variant="danger" now={`${styleComponets}`} label={`${styleComponets}%`} />
               </Col>
             </Row>
