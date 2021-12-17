@@ -1,3 +1,9 @@
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
+
 ::selection {
   color: white;
   background: #601f24;
@@ -51,6 +57,41 @@ h3 {
 }
 
 
+h5 {
+  color: #333333;
+}
+
 small {
   color: #601f24;
 }
+
+.container-hero {
+  max-width: 1000px;
+  /* width: 100%; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+}
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 1000px;
+  /* width: 100%; */
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.progress {
+  background-color: #889AAD !important;
+  border-radius: 10px;
+  height: 20px;
+}
+

@@ -16,3 +16,9 @@
   font-weight: bold;
   font-size: 16.5px;
 }
+
+@media (max-width: 963px) {
+  #menu {
+    display: none;
+  }
+}

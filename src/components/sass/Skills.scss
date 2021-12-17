@@ -1,0 +1,17 @@
+@import '../../sass/variables.scss';
+
+.Skill-description {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.progress-bar.bg-danger {
+    background-color: $color-variacion !important;
+}
+
+.xml {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
