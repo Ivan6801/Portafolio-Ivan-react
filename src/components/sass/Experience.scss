@@ -1,0 +1,44 @@
+.experiencia-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 150px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+
+.item-experiencia {
+    /* border: 1px solid #f00; */
+    scroll-snap-align: center;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-experiencia:hover {
+    animation-name: item-experiencia;
+    animation-duration: .8s;
+    // animation-delay: 1s;
+    animation-iteration-count: infinite;
+    // animation-direction: alternate;
+    animation-timing-function: ease;
+}
+
+
+@keyframes item-experiencia {
+    5% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+  }
+
+.item-experiencia img {
+    width: 100px;
+}

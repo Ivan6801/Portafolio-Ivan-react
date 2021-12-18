@@ -6,6 +6,7 @@ import { Portfolio } from '../components/Portfolio'
 import { Contact } from '../components/Contact'
 import { Event } from '../components/Event'
 import { Footer } from '../components/Footer'
+import { Experience } from '../components/Experience'
 import './sass/media.scss'
 
 const Portafolio = () => {
@@ -18,6 +19,8 @@ const Portafolio = () => {
       <div className="container">
         <h2 className="event-list-title">Más sobre mi experiencia</h2>
       </div>
+      <br />
+      <Experience />
       <Event />
       <Contact />
       <Footer />
