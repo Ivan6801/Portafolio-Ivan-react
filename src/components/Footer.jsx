@@ -1,20 +1,32 @@
 import React from 'react'
 import './sass/Footer.scss'
+import ivanf from '../assets/images/Logo-Ivan-IG.png'
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <div className="container">
+        <>
+    <footer class="footer">
+        <div class="container">
             <div>
-                <p>Curso de Desarrollo web online 2018 <img src="images/platzi.png" width="80" alt="platzi" /></p>
+                <p className='p-3'>Desarrollo web online 2020
+                    <br />
+                    <br />
+                <img src={ivanf} width="300" alt="platzi" />
+                </p>
             </div>
             <div>
-            <p>
-                Designed with ❤️ by <a href="https://twitter.com/thespianartist">@thespianartist</a>
-            </p>
+                <p>
+                    Diseñado con 💓 por Ivan Gonzalez Gonzalez
+                </p>
+                    <br />
+                <p>
+                    Version: 3
+                </p>
+                    <br />
             </div>
         </div>
-        </footer>
+    </footer>
+        </>
     )
 }
 

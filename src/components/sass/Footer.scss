@@ -1,6 +1,8 @@
+@import '../../sass/variables.scss';
+
 .footer {
-    color: white;
-    background-color: #1b2127;
+    color: $color-claro;
+    background-color: $color-secundario;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,5 +14,5 @@
   }
   
   .footer a {
-    color: white;
+    color: $color-claro;
   }

@@ -28,6 +28,10 @@ import netlify from '../assets/images/netlify.png'
 import prepos from '../assets/images/prepos.png'
 import cPanel from '../assets/images/cPanel.png'
 import wordpress from '../assets/images/wordpress.png'
+import woo from '../assets/images/woo.png'
+import figma from '../assets/images/figma.png'
+import ai from '../assets/images/ai.png'
+import ax from '../assets/images/adobexd.png'
 
 
 const Experience = () => {
@@ -53,8 +57,8 @@ const Experience = () => {
       <div className="item-experiencia"><img src="http://pngimg.com/uploads/google/google_PNG19633.png" alt="Chrome dev tools" title="Chrome dev tools" /></div>
       <div className="item-experiencia"><img src={android} alt="Android Studio" title="Android Studio" /></div>
       <div className="item-experiencia"><img src={lighthouse} alt="Google lighthouse" title="Google lighthouse" /></div>
-      <div className="item-experiencia"><img src={git} alt="Git" title="Git" /></div>
       <div className="item-experiencia"><img src={terminal} alt="Terminal" title="Terminal" /></div>
+      <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
     </section>
 
     <div className="container"><h4>Herramientas de maquetación web</h4></div>
@@ -71,15 +75,20 @@ const Experience = () => {
       <div className="item-experiencia"><img src={webpack} alt="Webpack" title="Webpack" /></div>
       <div className="item-experiencia"><img src={babel} alt="Babel" title="Babel" /></div>
       <div className="item-experiencia"><img src={firebase} alt="FireBase" title="FireBase" /></div>
+      <div className="item-experiencia"><img src={git} alt="Git" title="Git" /></div>
       <div className="item-experiencia"><img src={npm} alt="npm" title="npm" /></div>
       <div className="item-experiencia"><img src={netlify} alt="Netlify" title="Netlify" /></div>
       <div className="item-experiencia"><img src={prepos} alt="Prepos" title="Prepos" /></div>
-      <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
+
     </section>
 
     <div className="container"><h4>Diseño Web | UX/UI</h4></div>
     <section className="experiencia-container">
       <div className="item-experiencia"><img src={wordpress} alt="WordPress" title="WordPress" /></div>
+      <div className="item-experiencia"><img src={woo} alt="WooCommerce" title="WooCommerce" /></div>
+      <div className="item-experiencia"><img src={figma} alt="Figma" title="Figma" /></div>
+      <div className="item-experiencia"><img src={ai} alt="Adobe Illustrator" title="Adobe Illustrator" /></div>
+      <div className="item-experiencia"><img src={ax} alt="Adobe XD" title="Adobe XD" /></div>
     </section>
       </>
     )

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Header } from '../components/Header'
 import { HeroSection } from '../components/HeroSection'
 import { PortfolioSection } from '../components/PortfolioSection'
@@ -22,6 +23,9 @@ const Portafolio = () => {
       <br />
       <Experience />
       <Event />
+      <div className='certificados'>
+        <Link to="/certificados"><button type="button" className="btn btn-outline-dark text-uppercase">Certificados</button></Link>
+      </div>
       <Contact />
       <Footer />
     </>

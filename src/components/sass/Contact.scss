@@ -1,6 +1,8 @@
+@import '../../sass/variables.scss';
+
 .contact {
-    background-color: #056fff;
-    color: white;
+    background-color: $color-variacion;
+    color: $color-claro;
     height: 150px;
     display: flex;
     align-items: center;
@@ -13,7 +15,6 @@
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-    // background-image: url('../images/envelope.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -23,7 +24,7 @@
   .form-email button {
     display: block;
     background: transparent;
-    color: white;
+    color: $color-claro;
     padding: 10px 0;
     border-radius: 5px;
     width: 100px;
@@ -34,3 +35,27 @@
     font-family: 'Source Sans Pro', sans-serif;
   }
   
+  .link-social-git {
+    color: #fff;
+  }
+
+  .link-social-tw {
+    color: #fff;
+  }
+
+  .link-social-link {
+    color: #fff;
+  }
+
+  .link-social-link:hover {
+    color: #0A66C2;
+  }
+
+  .link-social-tw:hover {
+    color: #00b3ff;
+  }
+
+  .link-social-git:hover {
+    color: #000;
+  }
+
