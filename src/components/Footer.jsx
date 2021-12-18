@@ -5,8 +5,8 @@ import ivanf from '../assets/images/Logo-Ivan-IG.png'
 const Footer = () => {
     return (
         <>
-    <footer class="footer">
-        <div class="container">
+    <footer className="footer">
+        <div className="container">
             <div>
                 <p className='p-3'>Desarrollo web online 2020
                     <br />
