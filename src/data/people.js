@@ -1,6 +1,6 @@
   const todos = [
     {
-      nombre: 'Iván Alexander',
+      nombre: 'Iván Alexander González González',
       apellidoPadre: 'González',
       apellidoMadre: 'González',
       edad: 22,
