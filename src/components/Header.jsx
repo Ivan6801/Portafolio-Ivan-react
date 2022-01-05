@@ -1,8 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import './sass/Header.scss'
+import { Menu } from './Menu';
 
 const Header = () => {
+  const [showMenu, setShowMenu] = useState(false);
+
+  let menu;
+
+  if(showMenu) {
+    menu = <Menu />
+  }
+
   return (
   <Navbar className="navbar navbar-dark bg-dark" bg="dark" variant="dark">
       <Container>
@@ -14,6 +23,10 @@ const Header = () => {
         <Nav.Link href="#pricing">JavaScript</Nav.Link>
         <Nav.Link href="#pricing">Trabjemos juntos</Nav.Link>
       </Nav>
+      <div>
+        <i onClick={() => setShowMenu(!showMenu)}>Menu</i>
+        { menu }
+      </div>
       </Container>
   </Navbar>
   )

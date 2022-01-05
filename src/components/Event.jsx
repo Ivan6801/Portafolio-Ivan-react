@@ -24,7 +24,7 @@ const Event = () => {
           </article>
           <article className="event">
             <figure className="event-imageContainer">
-                <img className="event-image" src={react} width="500" />
+              <img className="event-image" src={react} width="500" />
             </figure>
             <div className="event-detail">
               <h3 className="event-title">React js</h3>
@@ -33,7 +33,7 @@ const Event = () => {
           </article>
           <article className="event">
             <figure className="event-imageContainer">
-                <img className="event-image" src={gitW} width="500" />
+              <img className="event-image" src={gitW} width="500" />
             </figure>
             <div className="event-detail">
               <h3 className="event-title">Git GitHub</h3>
