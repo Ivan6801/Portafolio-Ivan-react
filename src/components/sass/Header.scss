@@ -17,8 +17,43 @@
   font-size: 16.5px;
 }
 
+@media (max-width: 2560px) {
+  i.burger-button {
+    right: -75px;
+  }
+}
+
 @media (max-width: 963px) {
   #menu {
     display: none;
   }
+  .burger-button {
+    right: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+.burger-button {
+  background-color: #601F24;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: 2px solid #601F24;
+  background-color: rgba(0, 0, 0, 0.7);
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  right: 10px;
+  top: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+#burger-menu {
+  width: 60%;
 }

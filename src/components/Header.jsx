@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import './sass/Header.scss'
 import { Menu } from './Menu';
+import BurgerMenu from '../assets/icons/menu.png'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -24,7 +25,7 @@ const Header = () => {
         <Nav.Link href="#pricing">Trabjemos juntos</Nav.Link>
       </Nav>
       <div>
-        <i onClick={() => setShowMenu(!showMenu)}>Menu</i>
+        <i className='burger-button' onClick={() => setShowMenu(!showMenu)}><img id='burger-menu' src={BurgerMenu} alt='Menu' /> </i>
         { menu }
       </div>
       </Container>

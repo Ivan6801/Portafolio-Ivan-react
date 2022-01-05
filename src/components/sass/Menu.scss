@@ -1,0 +1,29 @@
+@import '../../sass/variables.scss';
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+  background-color: rgba(96, 31, 36, 0.9);
+  transition: .5s;
+  }
+
+  .menu ol {
+    list-style: none;
+    text-align: center;
+  }
+
+  .menu ol li {
+    padding-bottom: 10px;
+  }
+
+  .link {
+    color: white;
+    font-size: 2rem;
+  }
