@@ -1,15 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './sass/Project.scss'
 import mobile from '../assets/gif/mobile.gif'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaSass } from 'react-icons/fa'
 import { FiFigma } from 'react-icons/fi'
 import { FaGithub } from "react-icons/fa";
+import { TodoCounter } from './TodoCounter'
+
+const defaultProject = [
+  { text: 'Construye un sitio web responsivo', completed: true },
+  { text: 'Google Clone', completed: true }
+];
 
 const Project = () => {
+  const [todos, setTodos] = useState(defaultProject);
+  const completedTodos = todos.filter(todo => !!todo.completed).length;
+
     return (
       <>
-        <h3>Proyectos: <small id='count'>14</small></h3>
+        <TodoCounter 
+          completed={completedTodos}
+        />
         <article className='project'>
             <div className="project-details">
             <h3 className="project-title">Construye un sitio web responsivo <img width={40} src="../assets/icons/figma.png" alt="" /></h3>

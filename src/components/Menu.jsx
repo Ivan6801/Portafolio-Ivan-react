@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Menu = () => {
   return (
-    <nav className='menu'>
+    <nav className='menu fadeInDown'>
         <ol>
           <li>
             <Link className="link" to="#portafolio">Portafolio</Link>
