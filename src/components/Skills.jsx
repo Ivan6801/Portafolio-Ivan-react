@@ -15,8 +15,8 @@ const Skills = () => {
   const html = 95;
   const css = 88;
   const js = 83;
-  const git = 70;
-  const xml = 20;
+  const git = 75;
+  const xml = 30;
   const wordpress = 90;
   const adobeIllustrator = 75;
   const figma = 60;
@@ -34,7 +34,7 @@ const Skills = () => {
           </p>
           <h2>HABILIDADES</h2>
           <Container className="mb-5">
-            <Row>
+            <Row className='flex-column'>
               <Col>
               <h5><FaHtml5 size={30} /> HTML5</h5> 
               <ProgressBar variant="danger" now={`${html}`} label={`${html}%`} />
@@ -49,14 +49,14 @@ const Skills = () => {
               </Col>
             </Row>
             <br />
-            <Row>
+            <Row className='flex-column'>
               <Col>
                 <h5><FaGitAlt size={30} /> Git</h5>
                 <ProgressBar variant="danger" now={`${git}`} label={`${git}%`} />
               </Col>
               <Col>
               <div className='d-flex align-items-center'>
-              <img className='xml mb-2' src={xmlIcon} alt="" /><h5>XML</h5>
+              <img className='xml mb-2' src={xmlIcon} alt="xml" /><h5>XML</h5>
               </div>
                 <ProgressBar variant="danger" now={`${xml}`} label={`${xml}%`} />
               </Col>
@@ -66,7 +66,7 @@ const Skills = () => {
               </Col>
             </Row>
             <br />
-            <Row>
+            <Row className='flex-column'>
               <Col>
                 <h5><SiAdobeillustrator size={30} /> Adobe illustrator</h5>
                 <ProgressBar variant="danger" now={`${adobeIllustrator}`} label={`${adobeIllustrator}%`} />
