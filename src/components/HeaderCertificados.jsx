@@ -22,7 +22,7 @@ const HeaderCertificados = () => {
       <Link className='nav-link' to="/">Portafolio</Link>
       <Link className='nav-link' to="/">Experiencia</Link>
       <Link className='nav-link' to="/certificados">Certificados</Link>
-      <Link className='nav-link' to="/">JavaScript</Link>
+      <Link className='nav-link' to="/javascript">JavaScript</Link>
       <Link className='nav-link' to="/">Trabjemos juntos</Link>
     </Nav>
     <div>

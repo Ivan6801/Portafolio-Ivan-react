@@ -43,6 +43,20 @@
 }
 
 .numbers {
-
   height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .container-certificado{
+      display: inline-block;
+      margin: 10px;
+  }
+
+  .item-certificado {
+      margin-top: 20px;
+  }
+
+  .item-certificado:hover {
+      width: 100%
+  }
 }

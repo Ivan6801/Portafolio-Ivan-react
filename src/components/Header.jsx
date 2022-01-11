@@ -19,11 +19,11 @@ const Header = () => {
       <Container>
       <Navbar.Brand href="#home"><img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" /></Navbar.Brand>
       <Nav id="menu" className="ml-auto">
-        <Link className='nav-link' href="#portafolio">Portafolio</Link>
-        <Link className='nav-link' href="#experiencia">Experiencia</Link>
+        <a className='nav-link' href="#portafolio">Portafolio</a>
+        <a className='nav-link' href='#experiencia'>Experiencia</a>
         <Link className='nav-link' to="/certificados">Certificados</Link>
-        <Link className='nav-link' href="#pricing">JavaScript</Link>
-        <Link className='nav-link' href="#contacto">Trabjemos juntos</Link>
+        <Link className='nav-link' to="/javascript">JavaScript</Link>
+        <a className='nav-link' href="#contacto">Trabjemos juntos</a>
       </Nav>
       <div>
         <i className='burger-button' onClick={() => setShowMenu(!showMenu)}><img id='burger-menu' src={BurgerMenu} alt='Menu' /> </i>

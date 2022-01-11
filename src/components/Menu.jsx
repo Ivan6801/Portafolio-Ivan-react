@@ -16,7 +16,7 @@ const Menu = () => {
             <Link className="link" to="/certificados">Certificados</Link>
           </li>
           <li>
-            <Link className="link" to="javascript.html">JavaScript</Link>
+            <Link className="link" to="/javascript">JavaScript</Link>
           </li>
           <li>
             <a className="link" href="#contacto">Trabajemos juntos</a>

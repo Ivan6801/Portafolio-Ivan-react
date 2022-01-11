@@ -62,7 +62,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={lighthouse} alt="Google lighthouse" title="Google lighthouse" /></div>
       <div className="item-experiencia"><img src={terminal} alt="Terminal" title="Terminal" /></div>
       <div className="item-experiencia"><img src={prettier} alt="Prettier" title="Prettier" /></div>
-      <div className="item-experiencia"><img src={pwa} alt="PWA" title="PWA" /></div>
+      <div className="item-experiencia"><img src={pwa} alt="Progressive Web Apps" title="Progressive Web Apps" /></div>
       <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
       <div className="item-experiencia"><img src={android} alt="Android Studio" title="Android Studio" /></div>
     </section>

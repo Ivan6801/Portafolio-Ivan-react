@@ -1,0 +1,20 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.NotFound-image {
+    width: 50%;
+}
+
+.NotFound-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.NotFound-link:hover {
+    color: #fff;
+}
