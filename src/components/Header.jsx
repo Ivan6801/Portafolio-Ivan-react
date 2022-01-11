@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 import './sass/Header.scss'
 import { Menu } from './Menu';
 import BurgerMenu from '../assets/icons/menu.png'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,11 +19,11 @@ const Header = () => {
       <Container>
       <Navbar.Brand href="#home"><img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" /></Navbar.Brand>
       <Nav id="menu" className="ml-auto">
-        <Nav.Link href="#home">Portafolio</Nav.Link>
-        <Nav.Link href="#features">Experiencia</Nav.Link>
-        <Nav.Link href="#pricing">Certificados</Nav.Link>
-        <Nav.Link href="#pricing">JavaScript</Nav.Link>
-        <Nav.Link href="#pricing">Trabjemos juntos</Nav.Link>
+        <Link className='nav-link' href="#portafolio">Portafolio</Link>
+        <Link className='nav-link' href="#experiencia">Experiencia</Link>
+        <Link className='nav-link' to="/certificados">Certificados</Link>
+        <Link className='nav-link' href="#pricing">JavaScript</Link>
+        <Link className='nav-link' href="#contacto">Trabjemos juntos</Link>
       </Nav>
       <div>
         <i className='burger-button' onClick={() => setShowMenu(!showMenu)}><img id='burger-menu' src={BurgerMenu} alt='Menu' /> </i>

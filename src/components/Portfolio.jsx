@@ -5,10 +5,10 @@ import { Skills } from './Skills'
 
 const Portfolio = () => {
     return (
-        <section id="portafolio" className="portfolio">
+        <section className="portfolio">
             <div className='container'>
                 <Skills />
-                <h2>Portafolio (Proyectos Destacados)</h2>
+                <h2 id='portafolio'>Portafolio (Proyectos Destacados)</h2>
                 <Project />
             </div>
         </section>

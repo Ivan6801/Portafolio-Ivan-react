@@ -11,7 +11,7 @@ import woo from '../assets/images/WooCommerce-plugins.jpg'
 
 const Event = () => {
     return (
-        <section id="eventos" className="event-list">
+        <section className="event-list">
         <div className="container">
           <article className="event">
             <figure className="event-imageContainer">

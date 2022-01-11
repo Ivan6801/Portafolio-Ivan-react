@@ -32,6 +32,9 @@ import woo from '../assets/images/woo.png'
 import figma from '../assets/images/figma.png'
 import ai from '../assets/images/ai.png'
 import ax from '../assets/images/adobexd.png'
+import eslint from '../assets/icons/eslint.svg'
+import prettier from '../assets/icons/prettier.svg'
+import pwa from '../assets/icons/pwa.svg'
 
 
 const Experience = () => {
@@ -55,10 +58,13 @@ const Experience = () => {
     <section className="experiencia-container">
       <div className="item-experiencia"><img src={visual} alt="Visual Studio Code" title="Visual Studio Code" /></div>
       <div className="item-experiencia"><img src="http://pngimg.com/uploads/google/google_PNG19633.png" alt="Chrome dev tools" title="Chrome dev tools" /></div>
-      <div className="item-experiencia"><img src={android} alt="Android Studio" title="Android Studio" /></div>
+      <div className="item-experiencia"><img src={eslint} alt="esLint" title="esLint" /></div>
       <div className="item-experiencia"><img src={lighthouse} alt="Google lighthouse" title="Google lighthouse" /></div>
       <div className="item-experiencia"><img src={terminal} alt="Terminal" title="Terminal" /></div>
+      <div className="item-experiencia"><img src={prettier} alt="Prettier" title="Prettier" /></div>
+      <div className="item-experiencia"><img src={pwa} alt="PWA" title="PWA" /></div>
       <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
+      <div className="item-experiencia"><img src={android} alt="Android Studio" title="Android Studio" /></div>
     </section>
 
     <div className="container"><h4>Herramientas de maquetación web</h4></div>

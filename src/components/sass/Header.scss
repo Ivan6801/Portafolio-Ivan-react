@@ -42,7 +42,7 @@
   height: 50px;
   display: block;
   border: 2px solid #601F24;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.47);
   line-height: 40px;
   text-align: center;
   position: fixed;
@@ -56,4 +56,13 @@
 
 #burger-menu {
   width: 60%;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  transition: 0.4s;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }

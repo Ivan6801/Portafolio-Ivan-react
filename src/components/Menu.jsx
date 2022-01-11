@@ -7,19 +7,19 @@ const Menu = () => {
     <nav className='menu fadeInDown'>
         <ol>
           <li>
-            <Link className="link" to="#portafolio">Portafolio</Link>
+            <a className="link" href="#portafolio">Portafolio</a>
           </li>
           <li>
-            <Link className="link" to="#eventos">Experiencia</Link>
+            <a className="link" href="#experiencia">Experiencia</a>
           </li>
           <li>
-            <Link className="link" to="certificados.html">Certificados</Link>
+            <Link className="link" to="/certificados">Certificados</Link>
           </li>
           <li>
             <Link className="link" to="javascript.html">JavaScript</Link>
           </li>
           <li>
-            <Link className="link" to="#contacto">Trabajemos juntos</Link>
+            <a className="link" href="#contacto">Trabajemos juntos</a>
           </li>
       </ol>
     </nav>

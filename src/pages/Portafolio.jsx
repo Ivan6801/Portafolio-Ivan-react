@@ -17,7 +17,7 @@ const Portafolio = () => {
       <HeroSection />
       <PortfolioSection />
       <Portfolio />
-      <div className="container">
+      <div id='experiencia' className="container">
         <h2 className="event-list-title">Más sobre mi experiencia</h2>
       </div>
       <br />
