@@ -6,13 +6,13 @@ import { Footer } from '../components/Footer'
 import { FaGithub } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 
-
 import js from '../assets/gif/js.gif'
 import cientifico from '../assets/images/cientifico.jpg'
 import reactGif from '../assets/gif/react.gif'
 import rick from '../assets/images/rick-morty-ivan.netlify.app.png'
 import starWars from '../assets/images/star-wars.png'
 import reactBadges from '../assets/gif/reactBadges.gif'
+import IntroReact from '../assets/gif/IntroReact.gif'
 
 
 const Javascript = () => {
@@ -22,6 +22,21 @@ const Javascript = () => {
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
 			<h3>Proyectos: <strong>4</strong></h3>
+			<article className='project'>
+				<div className="project-details">
+				<h3 className="project-title">Aplicación de tareas</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>11/01/2022</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://ivan6801.github.io/intro-react/" target="_blank">https://ivan6801.github.io/intro-react/</a></small></p>
+				<a href="https://github.com/Ivan6801/intro-react" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-description">
+					Aplicación para administrar tus tareas.
+				</p>
+				</div>
+				<figure className="project-imageContainer">
+					<a href="https://ivan6801.github.io/intro-react/" target="_blank" rel="noopener noreferrer"><img className="image-mobile" src={IntroReact} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">JavaScript Vanilla</h3>
