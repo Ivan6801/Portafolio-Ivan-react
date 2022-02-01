@@ -208,7 +208,7 @@ const Project = () => {
     <article className='project'>
         <div className="project-details">
         <h3 className="project-title">Keva Fashion</h3>
-        <h6 className="project-course"><FaHtml5 color='#333333' size={30} /><FaCss3Alt color='#333333' size={30} /> <SiPhp color='#333333' size={30} /> / <SiPhpmyadmin color='#333333' size={30} /> </h6>
+        <h6 className="project-course"><FaHtml5 color='#333333' size={30} /><FaCss3Alt color='#333333' size={30} /> <SiPhp color='#333333' size={30} /> / <SiPhpmyadmin color='#6C78AF' size={30} /> </h6>
         <p className="project-date"><small><strong>Fecha:</strong>15/07/2019</small></p>
         <p className="project-description">El proyecto ya implementado puede ser publicado en internet para que los clientes puedan comprar los productos, las ventas aumentan al 50% y ya no tiene problema del control del inventario por las ventas.</p>
         </div>
@@ -241,7 +241,7 @@ const Project = () => {
     <article className='project'>
         <div className="project-details">
         <h3 className="project-title">Fast Learn</h3>
-        <h6 className="project-course"><FaHtml5 color='#333333' size={30} /><FaCss3Alt color='#333333' size={30} /> <SiMysql color='#333333' size={30} /> / <SiJquery width={30} color='#333333' /> </h6>
+        <h6 className="project-course"><FaHtml5 color='#333333' size={30} /><FaCss3Alt color='#333333' size={30} /> <SiMysql color='#333333' size={30} /> / <SiJquery width={30} color='#0166AE' /> </h6>
         <p className="project-date"><small><strong>Fecha:</strong>01/12/2017</small></p>
         <strong>Emprendedores:</strong><b> Segundo Lugar</b>
         <br />

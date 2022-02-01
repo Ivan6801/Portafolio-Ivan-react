@@ -41,6 +41,8 @@ import postman from '../assets/certificates/postman.jpg'
 import webpack from '../assets/certificates/webpack.jpg'
 import react from '../assets/certificates/react.jpg'
 import infoReact from '../assets/certificates/info-react.jpg'
+import practicoReact from '../assets/certificates/react-practico.jpg'
+import practicoJavaScript from '../assets/certificates/practicoJavaScript.jpg'
 import svelte from '../assets/certificates/svelte.jpg'
 
 import illustrator from '../assets/certificates/illustrator.jpg'
@@ -83,9 +85,6 @@ const Certificados = () => {
               <img className='item-certificado' title='CSS GRID LAYOUT' src={CssGridLayout} alt="CSS GRID LAYOUT" />
             </Col>
             <Col md={4}>
-              <img className='item-certificado' title='CSS GRID LAYOUT' src={CssGridLayout} alt="CSS GRID LAYOUT" />
-            </Col>
-            <Col md={4}>
               <img className='item-certificado' title='MAQUETACION EN CSS' src={maquetacionEnCss} alt="MAQUETACION EN CSS" />
             </Col>
             <Col md={4}>
@@ -99,11 +98,11 @@ const Certificados = () => {
             </Col>
             <Col md={4}>
             <div className="post">
-            <img className='item-certificado' title='JQUERY A JAVASCRIPT' src={jquery} alt="JQUERY A JAVASCRIPT" />
-            <span className="post-overlay">
-              <span className="post-likes">Anterior - 2018</span>
-            </span>
-          </div>
+              <img className='item-certificado' title='JQUERY A JAVASCRIPT' src={jquery} alt="JQUERY A JAVASCRIPT" />
+              <span className="post-overlay">
+                <span className="post-likes">Anterior - 2018</span>
+              </span>
+            </div>
             </Col>
           </Row>
         </Container>
@@ -117,13 +116,23 @@ const Certificados = () => {
               <img className='item-certificado' title='SASS' src={sass} alt="SASS" />
             </Col>
             <Col md={4}>
+            <div className="post">
               <img className='item-certificado' title='ANIMACIONES PARA LA WEB' src={animacionesParaLaWeb} alt="ANIMACIONES PARA LA WEB" />
+              <span className="post-overlay">
+                <span className="post-likes">Anterior - 2019</span>
+              </span>
+            </div>
             </Col>
             <Col md={4}>
               <img className='item-certificado' title='BOOTSTRAP' src={bootstrap} alt="BOOTSTRAP" />
             </Col>
             <Col md={4}>
+            <div className="post">
               <img className='item-certificado' title='FOUNDATION' src={foundation} alt="FOUNDATION" />
+              <span className="post-overlay">
+                <span className="post-likes">Anterior - 2018</span>
+              </span>
+            </div>
             </Col>
             <Col md={4}>
               <img className='item-certificado' title='SISTEMAS DE DISENO PARA DESARROLLADORES' src={sistema} alt="SISTEMAS DE DISENO PARA DESARROLLADORES" />
@@ -158,10 +167,12 @@ const Certificados = () => {
               <img className='item-certificado' title='POSTMAN' src={postman} alt="POSTMAN" />
             </Col>
             <Col md={4}>
-              <img className='item-certificado' title='WEBPACK' src={webpack} alt="WEBPACK" />
-            </Col>
-            <Col md={4}>
+            <div className="post">
               <img className='item-certificado' title='REACT.JS' src={react} alt="REACT.JS" />
+              <span className="post-overlay">
+                <span className="post-likes">Anterior - 2019</span>
+              </span>
+            </div>
             </Col>
             <Col md={4}>
               <img className='item-certificado' title='SVELTE' src={svelte} alt="SVELTE" />
@@ -175,7 +186,16 @@ const Certificados = () => {
         <Image width={80} className='mb-3' src={reactGif} alt="React" roundedCircle  />
         <Row>
           <Col md={4}>
+            <img className='item-certificado' title='PRACTICO DE JAVASCRIPT' src={practicoJavaScript} alt="PRACTICO DE JAVASCRIPT" />
+          </Col>
+          <Col md={4}>
             <img className='item-certificado' title='INTRODUCCION A REACT.JS' src={infoReact} alt="INTRODUCCION A REACT.JS" />
+          </Col>
+          <Col md={4}>
+            <img className='item-certificado' title='PRACTICO DE REACT.JS' src={practicoReact} alt="PRACTICO DE REACT.JS" />
+          </Col>
+          <Col md={4}>
+              <img className='item-certificado' title='WEBPACK' src={webpack} alt="WEBPACK" />
           </Col>
         </Row>
 

@@ -14,6 +14,9 @@ const HeroSection = () => {
         </h1>
         <figure>
           <img className="hero-image" src={ivan} width="500" height="300" alt="imagen principal del sitio" />
+            <div className='ProfileHeader'>
+              <span>Pro</span>
+            </div>
           <div className='hero-link'>
             <a href="https://github.com/Ivan6801" rel="noopener" target="_blank"><FaGithub className='Icons' size={50} />  </a>
             <a href="https://twitter.com/gonzaleziv5" rel="noopener" target="_blank"><BsTwitter className='Icons' size={50} />  </a>

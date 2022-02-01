@@ -8,10 +8,11 @@ import { SiJavascript } from "react-icons/si";
 
 import js from '../assets/gif/js.gif'
 import cientifico from '../assets/images/cientifico.jpg'
+import math from '../assets/images/math.png'
 import reactGif from '../assets/gif/react.gif'
 import rick from '../assets/images/rick-morty-ivan.netlify.app.png'
 import starWars from '../assets/images/star-wars.png'
-import reactBadges from '../assets/gif/reactBadges.gif'
+import hooksApp from '../assets/images/intro-hooksApp.png'
 import IntroReact from '../assets/gif/IntroReact.gif'
 
 
@@ -21,7 +22,7 @@ const Javascript = () => {
 			<HeaderCertificados />
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
-			<h3>Proyectos: <strong>4</strong></h3>
+			<h3>Proyectos: <strong>6</strong></h3>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Aplicación de tareas</h3>
@@ -57,6 +58,21 @@ const Javascript = () => {
 			</article>
 			<article className='project'>
 				<div className="project-details">
+				<h3 className="project-title">Página web de matemáticas</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={50} src={js} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>14/12/2020</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://ivan6801.github.io/Math/" target="_blank">https://ivan6801.github.io/Math/</a></small></p>
+				<a href="https://github.com/Ivan6801/Math" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-description">
+				Practica todo lo que has aprendido de JavaScript para crear una página web con diferentes ejercicios básicos de matemáticas.				
+				</p>
+				</div>
+				<figure className="project-imageContainer">
+					<a href="https://ivan6801.github.io/Math/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={math} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
+			<article className='project'>
+				<div className="project-details">
 				<h3 className="project-title">Lista de personajes de Rick y Morty API</h3>
 				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
 				<p className="project-date"><small><strong>Fecha:</strong>21/12/2020</small></p>
@@ -77,7 +93,7 @@ const Javascript = () => {
 				<div className="project-details">
 				<h3 className="project-title">The Star Wars API</h3>
 				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
-				<p className="project-date"><small><strong>Fecha:</strong>25/08/2021</small></p>
+				<p className="project-date"><small><strong>Fecha:</strong>03/07/2021</small></p>
 				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://ivan6801.github.io/starwarsapi/" target="_blank">https://ivan6801.github.io/starwarsapi/</a></small></p>
 				<a href="https://github.com/Ivan6801/starwarsapi" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
 				<p className="project-description">
@@ -93,16 +109,18 @@ const Javascript = () => {
 			</article>
 			<article className='project'>
 				<div className="project-details">
-				<h3 className="project-title">Platzi Badges React js</h3>
+				<h3 className="project-title">Introducción a React Hooks</h3>
 				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
-				<p className="project-date"><small><strong>Fecha:</strong>07/04/2021</small></p>
-				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://ivan6801.github.io/proyecto-platzi-badges/" target="_blank">https://ivan6801.github.io/proyecto-platzi-badges/</a></small></p>
-				<a href="https://github.com/Ivan6801/proyecto-platzi-badges" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-date"><small><strong>Fecha:</strong>30/01/2022</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://intro-hooks.netlify.app/" target="_blank">https://intro-hooks.netlify.app/</a></small></p>
+				<a href="https://github.com/Ivan6801/react-hooks" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
 				<p className="project-description">
-				Crear una plataforma para llevar registro de los asistentes a la Platzi Conf, haciendo posible que cada usuario registrado puede ingresar su información personal. Cada uno de ellos tendrá un rol diferente y esto se verá reflejado en su badge. Por último, crearás una página que permitirá listar a todos los participantes y filtrarlos por tipo de rol, o hacer búsqueda por nombre.        </p>
+					Proyecto con todos los hooks de React. <br />
+					| useState, useEffect, useReducer, useMemo, useRef, useCallback 
+				</p>
 				</div>
 				<figure className="project-imageContainer">
-					<a href="https://ivan6801.github.io/proyecto-platzi-badges/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={reactBadges} alt="prouyecto del curso de portafolio" /></a>
+					<a href="https://intro-hooks.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={hooksApp} alt="prouyecto del curso de portafolio" /></a>
 				</figure>
 			</article>
 			</div>
