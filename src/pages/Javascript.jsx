@@ -14,6 +14,7 @@ import rick from '../assets/images/rick-morty-ivan.netlify.app.png'
 import starWars from '../assets/images/star-wars.png'
 import hooksApp from '../assets/images/intro-hooksApp.png'
 import IntroReact from '../assets/gif/IntroReact.gif'
+import yardSaleShop from '../assets/images/yard-sale-shop.png'
 
 
 const Javascript = () => {
@@ -22,7 +23,7 @@ const Javascript = () => {
 			<HeaderCertificados />
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
-			<h3>Proyectos: <strong>6</strong></h3>
+			<h3>Proyectos: <strong>7</strong></h3>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Aplicación de tareas</h3>
@@ -121,6 +122,21 @@ const Javascript = () => {
 				</div>
 				<figure className="project-imageContainer">
 					<a href="https://intro-hooks.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={hooksApp} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
+			<article className='project'>
+				<div className="project-details">
+				<h3 className="project-title">Práctico de React.js</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>05/02/2022</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://yard-sale-shop.netlify.app/" target="_blank">https://yard-sale-shop.netlify.app/</a></small></p>
+				<a href="https://github.com/Ivan6801/react-shop" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-description">
+					Realizé diseños en HTML y CSS a componentes reutilizables en React.js, Configurar entorno de desarrollo con Webpack y Babel. Define los componentes, contenedores, rutas, react hooks de tu proyecto.
+				</p>
+				</div>
+				<figure className="project-imageContainer">
+					<a href="https://yard-sale-shop.netlify.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={yardSaleShop} alt="prouyecto del curso de portafolio" /></a>
 				</figure>
 			</article>
 			</div>
