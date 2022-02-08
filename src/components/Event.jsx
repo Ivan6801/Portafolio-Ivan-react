@@ -82,7 +82,7 @@ const Event = () => {
             </figure>
             <div className="event-detail">
               <h3 className="event-title">WooCommerce</h3>
-              <p className="event-description">WooCommerce es un plugin de comercio electrónico de código abierto para WordPress. Está diseñado para pequeños y grandes comerciantes en línea con WordPress.</p>
+              <p className="event-description">WooCommerce es un plugin de comercio electrónico de código abierto para WordPress. Está diseñado para pequeños y grandes comerciantes en línea con WordPress. Utilizar el e-commerce</p>
             </div>
           </article>
         </div>
