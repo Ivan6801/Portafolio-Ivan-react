@@ -64,7 +64,7 @@ const Event = () => {
             </figure>
             <div className="event-detail">
               <h3 className="event-title">Figma</h3>
-              <p className="event-description">Creando una aplicación de viajes que le permita a tus usuarios conocer nuevos lugares para viajar con sólo conocer su presupuesto y algunas preferencias personales..</p>
+              <p className="event-description">Creando una aplicación de viajes que le permita a tus usuarios conocer nuevos lugares para viajar con sólo conocer su presupuesto y algunas preferencias personales.</p>
             </div>
           </article>
           <article className="event">
