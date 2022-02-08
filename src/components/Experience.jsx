@@ -35,6 +35,7 @@ import ax from '../assets/images/adobexd.png'
 import eslint from '../assets/icons/eslint.svg'
 import prettier from '../assets/icons/prettier.svg'
 import pwa from '../assets/icons/pwa.svg'
+import vercel from '../assets/images/vercel.png'
 
 
 const Experience = () => {
@@ -80,10 +81,11 @@ const Experience = () => {
       <div className="item-experiencia"><img src={github} alt="GitHub" title="GitHub" /></div>
       <div className="item-experiencia"><img src={webpack} alt="Webpack" title="Webpack" /></div>
       <div className="item-experiencia"><img src={babel} alt="Babel" title="Babel" /></div>
-      <div className="item-experiencia"><img src={firebase} alt="FireBase" title="FireBase" /></div>
       <div className="item-experiencia"><img src={git} alt="Git" title="Git" /></div>
       <div className="item-experiencia"><img src={npm} alt="npm" title="npm" /></div>
       <div className="item-experiencia"><img src={netlify} alt="Netlify" title="Netlify" /></div>
+      <div className="item-experiencia"><img src={vercel} alt="Vercel" title="Vercel" /></div>
+      <div className="item-experiencia"><img src={firebase} alt="FireBase" title="FireBase" /></div>
       <div className="item-experiencia"><img src={prepos} alt="Prepos" title="Prepos" /></div>
 
     </section>
