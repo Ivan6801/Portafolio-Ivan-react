@@ -76,7 +76,7 @@ const Project = () => {
         <p className="project-date"><small><strong>Fecha:</strong>01/6/2021</small></p>
         <p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://ivan6801.github.io/Batabit/" target="_blank">https://ivan6801.github.io/Batabit/</a></small></p>
         <a href="https://github.com/Ivan6801/Batabit" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
-        <p className="project-description">Platzi Video fue el resultado de 3 meses de trabajo
+        <p className="project-description">
         Crearás el frontend de un sitio web partiendo de su wireframe, analizarás su arquitectura y construirás en código cada una de sus partes para que este se adapte a cualquier dispositivo de los usuarios.
         </p>
         </div>
