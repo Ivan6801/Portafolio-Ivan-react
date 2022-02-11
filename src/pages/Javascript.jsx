@@ -5,6 +5,7 @@ import { Footer } from '../components/Footer'
 
 import { FaGithub } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { SiStyledcomponents } from "react-icons/si"
 
 import js from '../assets/gif/js.gif'
 import cientifico from '../assets/images/cientifico.jpg'
@@ -15,6 +16,8 @@ import starWars from '../assets/images/star-wars.png'
 import hooksApp from '../assets/images/intro-hooksApp.png'
 import IntroReact from '../assets/gif/IntroReact.gif'
 import yardSaleShop from '../assets/images/yard-sale-shop.png'
+import petgram from '../assets/gif/petgram.gif'
+import PetgramIcon from '../assets/icons/Petgram.jpg'
 
 
 const Javascript = () => {
@@ -23,7 +26,23 @@ const Javascript = () => {
 			<HeaderCertificados />
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
-			<h3>Proyectos: <strong>7</strong></h3>
+			<h3>Proyectos: <strong>8</strong></h3>
+			<article className='project'>
+				<div className="project-details">
+				<h3 className="project-title">Petgram</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> <SiStyledcomponents color='#DD69C6' size={50} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>10/02/2022</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://react-avanzado-pf777zyyw-ivan6801.vercel.app/" target="_blank">https://react-avanzado-pf777zyyw-ivan6801.vercel.app/</a></small></p>
+				<a href="https://github.com/Ivan6801/react-avanzado" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-description">
+				Crea una aplicación para subir y compartir fotos de mascotas usando Webpack, GraphQL, React Hooks, React Router, SEO y PWAs. 			
+				</p>
+				<img title='Software' className='image-icon' src={PetgramIcon} alt="Icons" />
+				</div>
+				<figure className="project-imageContainer">
+					<a href="https://react-avanzado-pf777zyyw-ivan6801.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="image-mobile" src={petgram} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Aplicación de tareas</h3>
@@ -75,7 +94,7 @@ const Javascript = () => {
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Lista de personajes de Rick y Morty API</h3>
-				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> <SiStyledcomponents color='#DD69C6' size={50} /> / <img width={80} src={reactGif} alt="js" /> </h6>
 				<p className="project-date"><small><strong>Fecha:</strong>21/12/2020</small></p>
 				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://rick-morty-ivan.netlify.app/" target="_blank">https://rick-morty-ivan.netlify.app/</a></small></p>
 				<a href="https://github.com/Ivan6801/practice-react" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
@@ -132,7 +151,7 @@ const Javascript = () => {
 				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://yard-sale-shop.netlify.app/" target="_blank">https://yard-sale-shop.netlify.app/</a></small></p>
 				<a href="https://github.com/Ivan6801/react-shop" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
 				<p className="project-description">
-					Realizé diseños en HTML y CSS a componentes reutilizables en React.js, Configurar entorno de desarrollo con Webpack y Babel. Define los componentes, contenedores, rutas, react hooks de tu proyecto.
+					Realizé diseños en HTML y CSS a componentes reutilizables en React.js, Configurar entorno de desarrollo con Webpack y Babel. Define los componentes, contenedores, rutas, react hooks de proyecto.
 				</p>
 				</div>
 				<figure className="project-imageContainer">
