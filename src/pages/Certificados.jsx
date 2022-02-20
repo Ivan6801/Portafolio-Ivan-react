@@ -45,6 +45,8 @@ import practicoReact from '../assets/certificates/react-practico.jpg'
 import practicoJavaScript from '../assets/certificates/practicoJavaScript.jpg'
 import svelte from '../assets/certificates/svelte.jpg'
 
+import reactAvanzado from '../assets/certificates/react-avanzado.jpg'
+
 import illustrator from '../assets/certificates/illustrator.jpg'
 import adobeXD from '../assets/certificates/adobeXD.jpg'
 
@@ -196,6 +198,9 @@ const Certificados = () => {
           </Col>
           <Col md={4}>
               <img className='item-certificado' title='WEBPACK' src={webpack} alt="WEBPACK" />
+          </Col>
+          <Col md={4}>
+              <img className='item-certificado' title='REACT.JS AVANZADO' src={reactAvanzado} alt="REACT.JS AVANZADO" />
           </Col>
         </Row>
 

@@ -17,7 +17,9 @@ const Header = () => {
   return (
   <Navbar className="navbar navbar-dark bg-dark" bg="dark" variant="dark">
       <Container>
-      <Navbar.Brand href="#home"><img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" /></Navbar.Brand>
+          <Navbar.Brand>
+            <img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" />
+          </Navbar.Brand>
       <Nav id="menu" className="ml-auto">
         <a className='nav-link' href="#portafolio">Portafolio</a>
         <a className='nav-link' href='#experiencia'>Experiencia</a>

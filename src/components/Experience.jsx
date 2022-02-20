@@ -36,6 +36,8 @@ import eslint from '../assets/icons/eslint.svg'
 import prettier from '../assets/icons/prettier.svg'
 import pwa from '../assets/icons/pwa.svg'
 import vercel from '../assets/images/vercel.png'
+import semanticUiReact from '../assets/images/semanticUiReact.png'
+import jest from '../assets/images/jest-logo.png'
 
 
 const Experience = () => {
@@ -51,7 +53,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={redux} alt="Redux" title="Redux" /></div>
       <div className="item-experiencia"><img src={next} alt="Next js" title="Next js" /></div>
       <div className="item-experiencia"><img src={styledComponents} alt="styled-components" title="styled-components" /></div>
-      <div className="item-experiencia"><img src={node} alt="Node js" title="Node js" /></div>
+      <div className="item-experiencia"><img src={jest} alt="Jest" title="Jest" /></div>
       <div className="item-experiencia"><img src={postman} alt="Postman" title="Postman" /></div>
     </section>
 
@@ -64,7 +66,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={terminal} alt="Terminal" title="Terminal" /></div>
       <div className="item-experiencia"><img src={prettier} alt="Prettier" title="Prettier" /></div>
       <div className="item-experiencia"><img src={pwa} alt="Progressive Web Apps" title="Progressive Web Apps" /></div>
-      <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
+      <div className="item-experiencia"><img src={node} alt="Node js" title="Node js" /></div>
       <div className="item-experiencia"><img src={android} alt="Android Studio" title="Android Studio" /></div>
     </section>
 
@@ -74,6 +76,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={booststrap} alt="Booststrap" title="Booststrap" /></div>
       <div className="item-experiencia"><img src={tailwind} alt="Tailwind css" title="Tailwind css" /></div>
       <div className="item-experiencia"><img src={materialize} alt="Materialize css" title="Materialize css" /></div>
+      <div className="item-experiencia"><img src={semanticUiReact} alt="Semantic UI React" title="Semantic UI React" /></div>
     </section>
 
     <div className="container"><h4>DevOps</h4></div>
@@ -86,6 +89,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={netlify} alt="Netlify" title="Netlify" /></div>
       <div className="item-experiencia"><img src={vercel} alt="Vercel" title="Vercel" /></div>
       <div className="item-experiencia"><img src={firebase} alt="FireBase" title="FireBase" /></div>
+      <div className="item-experiencia"><img src={cPanel} alt="cPanel" title="cPanel" /></div>
       <div className="item-experiencia"><img src={prepos} alt="Prepos" title="Prepos" /></div>
 
     </section>
