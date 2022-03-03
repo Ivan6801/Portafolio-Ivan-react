@@ -5,7 +5,11 @@ import { Footer } from '../components/Footer'
 
 import { FaGithub } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
-import { SiStyledcomponents } from "react-icons/si"
+import { SiStyledcomponents } from "react-icons/si";
+import { SiJest } from "react-icons/si";
+import { SiPwa } from "react-icons/si";
+import { SiPaypal } from "react-icons/si";
+import { SiStrapi } from "react-icons/si";
 
 import js from '../assets/gif/js.gif'
 import cientifico from '../assets/images/cientifico.jpg'
@@ -18,6 +22,7 @@ import IntroReact from '../assets/gif/IntroReact.gif'
 import yardSaleShop from '../assets/images/yard-sale-shop.png'
 import petgram from '../assets/gif/petgram.gif'
 import PetgramIcon from '../assets/icons/Petgram.jpg'
+import gamesStorePwa from '../assets/images/games-store-pwa.png'
 
 
 const Javascript = () => {
@@ -26,7 +31,7 @@ const Javascript = () => {
 			<HeaderCertificados />
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
-			<h3>Proyectos: <strong>8</strong></h3>
+			<h3>Proyectos: <strong>9</strong></h3>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Petgram</h3>
@@ -41,6 +46,21 @@ const Javascript = () => {
 				</div>
 				<figure className="project-imageContainer">
 					<a href="https://react-avanzado-pf777zyyw-ivan6801.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="image-mobile" src={petgram} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
+			<article className='project'>
+				<div className="project-details">
+				<h3 className="project-title">Tiendas de bebidas (E-commerce)</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> <SiJest color='#933E4C' size={30} /> <SiPwa color='#0091F7' size={30} /> <SiPaypal color='#012069' size={30} /> <SiStrapi color='#876FF2' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>11/01/2022</small></p>
+				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://games-store-pwa.vercel.app/" target="_blank">https://games-store-pwa.vercel.app/</a></small></p>
+				<a href="https://github.com/Ivan6801/games-store-pwa" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
+				<p className="project-description">
+				Desarrolla aplicaciones web con React Hooks. Integra herramientas como Strapi, React Helmet el SEO, React Icons, PWA, Jest, PayPal y Google Maps para desarrollar una tienda online con carrito de compras. Incorpora componentes funcionales.
+				</p>
+				</div>
+				<figure className="project-imageContainer">
+					<a href="https://games-store-pwa.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={gamesStorePwa} alt="prouyecto del curso de portafolio" /></a>
 				</figure>
 			</article>
 			<article className='project'>

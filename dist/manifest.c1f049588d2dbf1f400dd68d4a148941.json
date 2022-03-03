@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.27874035f710d25e15660db4bd2901c0.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.15f62c67eabaddef4fc8de6ff8725c09.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_256x256.2b12605774f25a304c3c4074d1802925.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.8c83f07d6e44e47353656b64f253a46c.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.5b4efe20bf71b617348d597cf51dee81.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.8c6f94ee7442a16a92785bc8eda7b3da.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "Ivan Gonzalez - App de mis proyectos",
+  "short_name": "Ivan Gonzalez - App de mis proyectos",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "shortname": "Ivan Gonzalez 💼",
+  "description": "Proyecto realizado 2020.",
+  "background_color": "#fff",
+  "theme_color": "#b1a"
+}

@@ -4,6 +4,7 @@ import './sass/Header.scss'
 import { Menu } from './Menu';
 import BurgerMenu from '../assets/icons/menu.png'
 import { Link } from 'react-router-dom'
+import IvanG from '../assets/icons/Logo-Ivan-IG.png'
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +19,7 @@ const Header = () => {
   <Navbar className="navbar navbar-dark bg-dark" bg="dark" variant="dark">
       <Container>
           <Navbar.Brand>
-            <img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" />
+            <img className='Logo' src={IvanG} alt="Logo de Ivan" />
           </Navbar.Brand>
       <Nav id="menu" className="ml-auto">
         <a className='nav-link' href="#portafolio">Portafolio</a>

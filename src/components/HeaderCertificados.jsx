@@ -4,6 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap'
 import { MenuCertificados } from './MenuCertificados';
 import BurgerMenu from '../assets/icons/menu.png'
 import { Link } from 'react-router-dom'
+import IvanG from '../assets/icons/Logo-Ivan-IG.png'
 
 const HeaderCertificados = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -19,7 +20,7 @@ const HeaderCertificados = () => {
     <Container>
     <Link to='/'>
       <Navbar.Brand>
-        <img className='Logo' src="https://ivan6801.github.io/Portafolio-Ivan/images/Logo-Ivan-IG.png" alt="Logo de Ivan" />
+        <img className='Logo' src={IvanG} alt="Logo de Ivan" />
       </Navbar.Brand>
     </Link>
     <Nav id="menu" className="ml-auto">
