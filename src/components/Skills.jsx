@@ -30,7 +30,7 @@ const Skills = () => {
           <h2>EXPERIENCIA</h2>
           <p className='Skill-description'>Estudié en Universidad Tecnológica de Tijuana en la carrera de TSU en tecnologia información y comunicación. 📚</p>
           <p className='Skill-description'>
-          Trabajo en empresa Grupo Guru - Diseño Paginas Web - Tijuana B.C. Realizé mis practicas profesionales donde me especialize en la creación de página WEB. utilizando el CMS WordPress por 4 meses. 🛒
+          Trabajé en empresa Grupo Guru - Diseño Paginas Web - Tijuana B.C. Realizé mis practicas profesionales donde me especialize en la creación de página WEB. utilizando el CMS WordPress por 4 meses. 🛒
           </p>
           <h2>HABILIDADES</h2>
           <Container className="mb-5">
