@@ -57,7 +57,7 @@ const Javascript = () => {
 				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://games-store-pwa.vercel.app/" target="_blank">https://games-store-pwa.vercel.app/</a></small></p>
 				<a href="https://github.com/Ivan6801/games-store-pwa" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
 				<p className="project-description">
-				Desarrolla aplicaciones web con React Hooks. Integra herramientas como Strapi, React Helmet el SEO, React Icons, PWA, Jest, PayPal y Google Maps para desarrollar una tienda online con carrito de compras. Incorpora componentes funcionales.
+				Desarrolla aplicaciones web con React Hooks. Integra herramientas como Strapi, React Helmet el SEO, React Icons, PWA, Jest, PayPal para desarrollar una tienda online con carrito de compras. Incorpora componentes funcionales.
 				</p>
 				</div>
 				<figure className="project-imageContainer">
