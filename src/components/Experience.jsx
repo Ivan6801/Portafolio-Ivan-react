@@ -7,7 +7,7 @@ import js from '../assets/images/js.png'
 import react from '../assets/images/react.png'
 import sass from '../assets/images/sass.png'
 import redux from '../assets/images/redux.png'
-import next from '../assets/images/next.png'
+import svelte from '../assets/images/svelte.png'
 import styledComponents from '../assets/images/styled-components.png'
 import node from '../assets/images/node.png'
 import postman from '../assets/images/postman.png'
@@ -51,9 +51,9 @@ const Experience = () => {
       <div className="item-experiencia"><img src={react} alt="React js" title="React js" /></div>
       <div className="item-experiencia"><img src={sass} alt="Sass" title="Sass" /></div>
       <div className="item-experiencia"><img src={redux} alt="Redux" title="Redux" /></div>
-      <div className="item-experiencia"><img src={next} alt="Next js" title="Next js" /></div>
       <div className="item-experiencia"><img src={styledComponents} alt="styled-components" title="styled-components" /></div>
       <div className="item-experiencia"><img src={jest} alt="Jest" title="Jest" /></div>
+      <div className="item-experiencia"><img src={svelte} alt="Svelte" title="Svelte" /></div>
       <div className="item-experiencia"><img src={postman} alt="Postman" title="Postman" /></div>
     </section>
 
