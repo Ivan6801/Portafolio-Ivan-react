@@ -10,6 +10,7 @@ import { SiJest } from "react-icons/si";
 import { SiPwa } from "react-icons/si";
 import { SiPaypal } from "react-icons/si";
 import { SiStrapi } from "react-icons/si";
+import { SiGraphql } from "react-icons/si";
 
 import js from '../assets/gif/js.gif'
 import cientifico from '../assets/images/cientifico.jpg'
@@ -35,7 +36,7 @@ const Javascript = () => {
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Petgram</h3>
-				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> <SiStyledcomponents color='#DD69C6' size={50} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> <SiStyledcomponents color='#DD69C6' size={50} /> <SiGraphql color='#DE33A6' size={30} /> <SiPwa color='#0091F7' size={30} />  / <img width={80} src={reactGif} alt="js" /> </h6>
 				<p className="project-date"><small><strong>Fecha:</strong>10/02/2022</small></p>
 				<p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://react-avanzado-pf777zyyw-ivan6801.vercel.app/" target="_blank">https://react-avanzado-pf777zyyw-ivan6801.vercel.app/</a></small></p>
 				<a href="https://github.com/Ivan6801/react-avanzado" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
