@@ -24,6 +24,7 @@ import yardSaleShop from '../assets/images/yard-sale-shop.png'
 import petgram from '../assets/gif/petgram.gif'
 import PetgramIcon from '../assets/icons/Petgram.jpg'
 import gamesStorePwa from '../assets/images/games-store-pwa.png'
+import pokemon from '../assets/images/pokemon.jpg'
 
 
 const Javascript = () => {
@@ -62,6 +63,21 @@ const Javascript = () => {
 				</div>
 				<figure className="project-imageContainer">
 					<a href="https://games-store-pwa.vercel.app/" target="_blank" rel="noopener noreferrer"><img className="project-image" src={gamesStorePwa} alt="prouyecto del curso de portafolio" /></a>
+				</figure>
+			</article>
+			<article className='project'>
+				<div className="project-details">
+				<h3 className="project-title">React Native: Pokemon</h3>
+				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
+				<p className="project-date"><small><strong>Fecha:</strong>29/03/2022</small></p>
+				{/* <p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://games-store-pwa.vercel.app/" target="_blank">https://games-store-pwa.vercel.app/</a></small></p> */}
+				{/* <a href="https://github.com/Ivan6801/games-store-pwa" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a> */}
+				<p className="project-description">
+				Aprende a manejar listas y consumir APIs en React Native. Desarrolla los componentes, pantallas y navegación de aplicación.
+				</p>
+				</div>
+				<figure className="project-imageContainer">
+					<img className="image-mobile" src={pokemon} alt="prouyecto del curso de portafolio" />
 				</figure>
 			</article>
 			<article className='project'>
