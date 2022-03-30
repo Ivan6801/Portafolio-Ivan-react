@@ -33,7 +33,7 @@ const Javascript = () => {
 			<HeaderCertificados />
 			<div className='container mt-5'>
 			<h2 id="portafolio">PORTAFOLIO (Proyectos JavaScript)</h2>
-			<h3>Proyectos: <strong>9</strong></h3>
+			<h3>Proyectos: <strong>10</strong></h3>
 			<article className='project'>
 				<div className="project-details">
 				<h3 className="project-title">Petgram</h3>
