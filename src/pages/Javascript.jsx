@@ -71,9 +71,12 @@ const Javascript = () => {
 				<h6 className="project-course"><SiJavascript color='#333333' size={30} /> / <img width={80} src={reactGif} alt="js" /> </h6>
 				<p className="project-date"><small><strong>Fecha:</strong>29/03/2022</small></p>
 				{/* <p className="project-url"><small><strong>Puedes verlo en:</strong> <a href="https://games-store-pwa.vercel.app/" target="_blank">https://games-store-pwa.vercel.app/</a></small></p> */}
-				{/* <a href="https://github.com/Ivan6801/games-store-pwa" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a> */}
+				<a href="https://github.com/Ivan6801/Pokedex" target="_blank" rel="noopener noreferrer"><button type="button" className="btn btn-outline-dark text-uppercase"><FaGithub className='mb-1' size={20} /> ver código</button></a>
 				<p className="project-description">
 				Aprende a manejar listas y consumir APIs en React Native. Desarrolla los componentes, pantallas y navegación de aplicación.
+				</p>
+				<p className='project-desciption'>
+					<small className='fw-bold fs-4'>API: </small><a href="https://pokeapi.co/" target="_blank">https://pokeapi.co/</a>
 				</p>
 				</div>
 				<figure className="project-imageContainer">
