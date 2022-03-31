@@ -44,6 +44,7 @@ import infoReact from '../assets/certificates/info-react.jpg'
 import practicoReact from '../assets/certificates/react-practico.jpg'
 import practicoJavaScript from '../assets/certificates/practicoJavaScript.jpg'
 import svelte from '../assets/certificates/svelte.jpg'
+import ReactNative from '../assets/certificates/ReactNative.jpg'
 
 import reactAvanzado from '../assets/certificates/react-avanzado.jpg'
 import reactHooks from '../assets/certificates/reactHooks.jpg'
@@ -205,6 +206,9 @@ const Certificados = () => {
           </Col>
           <Col md={4}>
               <img className='item-certificado' title='REACT.JS AVANZADO' src={reactAvanzado} alt="REACT.JS AVANZADO" />
+          </Col>
+          <Col md={4}>
+              <img className='item-certificado' title='INTRODUCCION A REACT NATIVE' src={ReactNative} alt="INTRODUCCION A REACT NATIVE" />
           </Col>
         </Row>
 
