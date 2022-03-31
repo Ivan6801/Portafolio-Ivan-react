@@ -4,6 +4,7 @@
   
   .certificados {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 20px;
@@ -11,4 +12,8 @@
 
   .certificados button {
     font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 180px;
+    height: auto;
   }

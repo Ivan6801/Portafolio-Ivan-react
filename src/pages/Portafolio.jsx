@@ -25,6 +25,7 @@ const Portafolio = () => {
       <Event />
       <div className='certificados'>
         <Link to="/certificados"><button type="button" className="btn btn-outline-dark text-uppercase">Certificados</button></Link>
+        <Link to="/javascript"><button type="button" className="btn btn-outline-dark text-uppercase">Javascript</button></Link>
       </div>
       <Contact />
       <Footer />
