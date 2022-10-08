@@ -38,6 +38,8 @@ import pwa from '../assets/icons/pwa.svg'
 import vercel from '../assets/images/vercel.png'
 import semanticUiReact from '../assets/images/semanticUiReact.png'
 import jest from '../assets/images/jest-logo.png'
+import materialui from '../assets/images/materialiui.png'
+import next from '../assets/images/nextjs.png'
 
 
 const Experience = () => {
@@ -55,6 +57,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={jest} alt="Jest" title="Jest" /></div>
       <div className="item-experiencia"><img src={svelte} alt="Svelte" title="Svelte" /></div>
       <div className="item-experiencia"><img src={postman} alt="Postman" title="Postman" /></div>
+      <div className="item-experiencia"><img src={next} alt="Next js" title="Next js" /></div>
     </section>
 
     <div className="container"><h4>Herramientas de desarrollo</h4></div>
@@ -77,6 +80,7 @@ const Experience = () => {
       <div className="item-experiencia"><img src={tailwind} alt="Tailwind css" title="Tailwind css" /></div>
       <div className="item-experiencia"><img src={materialize} alt="Materialize css" title="Materialize css" /></div>
       <div className="item-experiencia"><img src={semanticUiReact} alt="Semantic UI React" title="Semantic UI React" /></div>
+      <div className="item-experiencia"><img src={materialui} alt="Material Ui" title="Material Ui" /></div>
     </section>
 
     <div className="container"><h4>DevOps</h4></div>
