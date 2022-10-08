@@ -45,6 +45,7 @@ import practicoReact from '../assets/certificates/react-practico.jpg'
 import practicoJavaScript from '../assets/certificates/practicoJavaScript.jpg'
 import svelte from '../assets/certificates/svelte.jpg'
 import ReactNative from '../assets/certificates/ReactNative.jpg'
+import ReactNativeApi from '../assets/certificates/react-native-apis.jpg'
 
 import reactAvanzado from '../assets/certificates/react-avanzado.jpg'
 import reactHooks from '../assets/certificates/reactHooks.jpg'
@@ -209,6 +210,9 @@ const Certificados = () => {
           </Col>
           <Col md={4}>
               <img className='item-certificado' title='INTRODUCCION A REACT NATIVE' src={ReactNative} alt="INTRODUCCION A REACT NATIVE" />
+          </Col>
+          <Col md={4}>
+              <img className='item-certificado' title='REACT NATIVE: MANEJO DE LISTAS Y CONSUMO DE APIS' src={ReactNativeApi} alt="REACT NATIVE: MANEJO DE LISTAS Y CONSUMO DE APIS" />
           </Col>
         </Row>
 
