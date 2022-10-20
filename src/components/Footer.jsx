@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
         <div className="container">
             <div>
-                <p className='p-3'>Desarrollo web online 2020
+                <p className='p-3'>Desarrollo web online 2020 - 2022
                     <br />
                     <br />
                 <img src={ivanf} width="300" alt="platzi" />

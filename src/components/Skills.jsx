@@ -28,7 +28,7 @@ const Skills = () => {
       <p className="Skill-description">
         Hola soy Iván Alexander González González, Estudio en Platzi cursos
         online profesionales de tecnologia mi carrera Arquitectura Front End con
-        React js y tengo 22 años soy sordo y me gusta mucho aprender todo lo
+        React js y tengo 23 años soy sordo y me gusta mucho aprender todo lo
         relacionado con tecnologia. 🚀
       </p>
       <h2>EXPERIENCIA</h2>
@@ -38,7 +38,7 @@ const Skills = () => {
       </p>
       <p className="Skill-description">
         -Trabajé en empresa Grupo Guru - Diseño Paginas Web - Tijuana B.C.
-        Realizé mis practicas profesionales donde me especialize en la creación
+        Realizé mis practicas profesionales Frontend donde me especialize en la creación
         de página WEB. utilizando el CMS WordPress por 4 meses. 🛒
       </p>
       <p className="Skill-description">

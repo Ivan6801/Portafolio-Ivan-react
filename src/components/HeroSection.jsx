@@ -10,7 +10,7 @@ const HeroSection = () => {
     <section className="hero">
       <div className="container-hero">
         <h1 className='fs-1'>
-          Hola! Soy <strong>Ivan Gonzalez</strong> <br/> Desarrollador  <strong>Front end</strong> profesional con <br /> pasión por la <strong>aprendizaje </strong> 😃
+          Hola! Soy <strong>Ivan Gonzalez</strong> <br/> Desarrollador  <strong>FullStack</strong> profesional con <br /> pasión por la <strong>aprendizaje </strong> 😃
         </h1>
         <figure>
           <img className="hero-image" src={ivan} width="500" height="300" alt="imagen principal del sitio" />
