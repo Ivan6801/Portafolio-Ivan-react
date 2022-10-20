@@ -51,7 +51,7 @@ const Experience = () => {
     <>
       <div className="container">
         <h4>
-          Herramientas de Frontend <span>💻</span>{" "}
+          Herramientas de Frontend <span>💻</span>
         </h4>
       </div>
       <section className="experiencia-container">
@@ -96,7 +96,7 @@ const Experience = () => {
 
       <div className="container">
         <h4>
-          Herramientas de Backend <span>🧲</span>{" "}
+          Herramientas de Backend <span>🧲</span>
         </h4>
       </div>
       <section className="experiencia-container">
@@ -121,7 +121,9 @@ const Experience = () => {
       </section>
 
       <div className="container">
-        <h4>Herramientas de desarrollo</h4>
+        <h4>
+          Herramientas de desarrollo <span>💪🏻</span>
+        </h4>
       </div>
       <section className="experiencia-container">
         <div className="item-experiencia">
@@ -167,7 +169,9 @@ const Experience = () => {
       </section>
 
       <div className="container">
-        <h4>Herramientas de maquetación web</h4>
+        <h4>
+          Herramientas de maquetación web <span>🎨</span>
+        </h4>
       </div>
       <section className="experiencia-container">
         <div className="item-experiencia">
@@ -203,7 +207,7 @@ const Experience = () => {
       </section>
 
       <div className="container">
-        <h4>DevOps</h4>
+        <h4>DevOps <span>📂</span></h4>
       </div>
       <section className="experiencia-container">
         <div className="item-experiencia">
@@ -239,7 +243,7 @@ const Experience = () => {
       </section>
 
       <div className="container">
-        <h4>Diseño Web | UX/UI</h4>
+        <h4>Diseño Web | UX/UI <span>✨</span></h4>
       </div>
       <section className="experiencia-container">
         <div className="item-experiencia">
