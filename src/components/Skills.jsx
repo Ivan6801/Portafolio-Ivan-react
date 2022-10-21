@@ -43,7 +43,7 @@ const Skills = () => {
       </p>
       <p className="Skill-description">
         -Trabajé en industrial G-Global como Ingeniero de software mi experiencia
-        en WMS brindando soluciones óptimas para el desarrollo de proyectos,
+        en WMS y TMS brindando soluciones óptimas para el desarrollo de proyectos,
         programación de software tanto para FullStack a través de RestApi
         utilizando tecnologías CRUD como React, Redux, Html, Scss, MongoDB, Nodejs,
         Formik, Postman, SQL y Test. Mantenimiento de los sistemas ya
