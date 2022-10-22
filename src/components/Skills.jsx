@@ -17,7 +17,7 @@ const Skills = () => {
   const js = 90;
   const git = 80;
   const xml = 30;
-  const wordpress = 90;
+  const wordpress = 100;
   const adobeIllustrator = 75;
   const figma = 80;
   const styleComponets = 80;
